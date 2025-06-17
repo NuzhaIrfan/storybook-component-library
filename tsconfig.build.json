@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false
+  },
+  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "node_modules"],
+  "include": ["components"]
+}

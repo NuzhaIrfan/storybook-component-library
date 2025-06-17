@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "storybook/no-renderer-packages": "off"
+  }
+}
